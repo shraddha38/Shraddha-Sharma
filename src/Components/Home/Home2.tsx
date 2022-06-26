@@ -35,19 +35,25 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">React.js</b> and
-              <i>
+              Designing and developing <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  high-volume, 
+              low-latency 
                 </b>
-              </i>
-              &nbsp; like
+              </i>applications for mission-critical systems and delivering high-availability and performance.
+              <br />
+              <br />
+              {" "}
+              Contributing in all phases of the 
               <i>
-                <b className="purple"> Vue.js and Next.js</b>
-              </i>
-            </p>
+                <b className="purple"> development lifecycle</b>
+              </i> 
+              and writing well
+              <i>
+                <b className="purple"> designed, testable, efficient 
+           </b>
+              </i>code.  </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
