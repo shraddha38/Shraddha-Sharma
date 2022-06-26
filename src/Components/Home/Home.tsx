@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import  Type from "./Typewriter"
+import Type from "./Typewriter"
 import Particle from "../Particles";
 import Home2 from "./Home2";
 import myAvatar from "../../Assets/myAvatar.png"
