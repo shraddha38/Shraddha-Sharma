@@ -12,7 +12,7 @@ export function ParticlesWrapper(props: ParticlesProps) {
       init={particlesInit}
       options={{
         ...props.options,
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
@@ -56,15 +56,15 @@ export function ParticlesWrapper(props: ParticlesProps) {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 4,
             straight: false,
           },
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1200,
             },
-            value: 80,
+            value: 60,
           },
           opacity: {
             value: 0.5,
