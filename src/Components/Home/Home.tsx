@@ -6,7 +6,7 @@ import Home2 from "./Home2";
 import myAvatar from "../../Assets/myAvatar.png"
 function Home() {
   return (
-    <section>
+    <>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -41,7 +41,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-    </section>
+    </>
   );
 }
 
