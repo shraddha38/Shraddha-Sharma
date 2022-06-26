@@ -1,14 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "./Typewriter"
-import Particle from "../Particles";
+import { ParticlesWrapper } from "../particles-wrapper";
 import Home2 from "./Home2";
 import myAvatar from "../../Assets/myAvatar.png"
+
 function Home() {
   return (
     <>
+      <ParticlesWrapper options={{ background: { color: '' }}} />
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
