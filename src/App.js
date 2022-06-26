@@ -10,6 +10,7 @@ import {
   Navigate
 } from "react-router-dom";
 import "./style.css";
+import ResumeDoc from "./Components/Resume/ResumeDoc";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<ResumeDoc />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
