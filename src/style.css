@@ -548,7 +548,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/about-bg.jpg);
   color: white !important;
 }
 
@@ -600,9 +600,6 @@ button:focus {
     padding-top: 0 !important;
   }
 }
-/* --------- */
-/* Resume */
-/* --------- */
 
 .resume-section {
   position: relative !important;

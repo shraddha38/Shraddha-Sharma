@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import "./style.css";
 import ResumeDoc from "./Components/Resume/ResumeDoc";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<ResumeDoc />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
 

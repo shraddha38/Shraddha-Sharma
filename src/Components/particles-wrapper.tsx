@@ -67,7 +67,7 @@ export function ParticlesWrapper(props: ParticlesProps) {
             value: 60,
           },
           opacity: {
-            value: 0.5,
+            value: 0.8,
           },
           shape: {
             type: "circle",
