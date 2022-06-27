@@ -36,7 +36,7 @@ function Education() {
               maxWidth: "50%",
               justifyItems: "center",
               alignItems: "center",
-              mt: "10%",
+              mt: "5%",
               ml: "auto",
               mr: "auto",
               mb: "0px",
