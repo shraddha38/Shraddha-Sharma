@@ -322,6 +322,7 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  z-index: -1;
 }
 
 .home-about-description {

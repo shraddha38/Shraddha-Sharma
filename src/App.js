@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Navbar from "./Components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Components/Footer";
@@ -14,14 +14,16 @@ import ResumeDoc from "./Components/Resume/ResumeDoc";
 
 function App() {
   return (
-    <Router>   
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/resume" element={<ResumeDoc />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
-        <Footer />
+    <Router>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<ResumeDoc />} />
+        <Route path="*" element={<Navigate to="/"/>} />
+      </Routes>
+
+      <Footer />
     </Router>
   );
 }
