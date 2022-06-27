@@ -12,6 +12,7 @@ import {
 import "./style.css";
 import ResumeDoc from "./Components/Resume/ResumeDoc";
 import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<ResumeDoc />} />
         <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Projects />} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
 
