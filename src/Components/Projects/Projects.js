@@ -7,6 +7,8 @@ import Shop from "../../Assets/Projects/Shop.png";
 import MindMapIt from "../../Assets/Projects/MindMapIt.png";
 import Fitness from "../../Assets/Projects/Fitness.png";
 import ICA from "../../Assets/Projects/ICA.png";
+import Vote from "../../Assets/Projects/Vote.png";
+
 
 function Projects() {
   return (
@@ -29,6 +31,15 @@ function Projects() {
               description="Image Capture Application intuitively helps transform your paper-based business processes by leveraging best of breed OCR technology. Captures, classifies, and recognizes text.
               Image Capture Application is a Microsoft Azure based intuitive document digitization solution. It uses Microsoft Azure OCR services to extract printed/ handwritten text images  (key-value pairs) from images and multi-page documents. "
               link="https://github.com/shraddha38/ImageCaptureApplication"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Vote}
+              isBlog={false}
+              title="Block chain based e-voting system"
+              description="Current voting systems like ballot box voting or electronic voting suffer from various security threats such as DDoS attacks, polling booth capturing, vote alteration and manipulation, malware attacks, etc, and also require huge amounts of paperwork, human resources, and time. "
+              link="https://github.com/shraddha38/e-voting-system-Blockchain-"
             />
           </Col>
           <Col md={4} className="project-card">
