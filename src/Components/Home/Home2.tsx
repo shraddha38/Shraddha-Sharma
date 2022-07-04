@@ -55,23 +55,6 @@ function Home2() {
            </b>
               </i>code.  </p>
           </Col>
-          <Col md={4} className="myAvtar" style={{ paddingLeft:"10%"}}>
-            <Tilt>
-              <img
-                src={myPhoto}
-                className="img-fluid"
-                alt="avatar"
-                style={{
-                  height: "300px",
-                  width: "200px",
-                  borderRadius: 15,
-               
-                }}
-              />
-              <br/>
-              Sraddha 
-            </Tilt>
-          </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
