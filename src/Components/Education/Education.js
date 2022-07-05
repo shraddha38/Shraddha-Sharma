@@ -267,7 +267,7 @@ function Education() {
                       Having privledge to work with Clients like- Citibank,
                       Microsoft Azure and Cloudio
                     </Typography>
-                    s
+                    
                   </CardContent>
                   <CardActions sx={{ pl: 60, pb: 3 }}>
                     <Button
