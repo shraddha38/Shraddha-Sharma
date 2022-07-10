@@ -5,7 +5,7 @@ type RedColouredBoxProps = {
 children: ReactNode,
 color: string
 }
-
+// undeer this component we can pass children prop as a component
 function RedColouredBox(props: RedColouredBoxProps) {
     return (
         <Box sx={{
