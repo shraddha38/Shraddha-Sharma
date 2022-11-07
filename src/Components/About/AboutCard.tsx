@@ -10,6 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sraddha Sharma </span>
             from <span className="purple"> Rewa, India.</span>
+            <br /> Currently living in <b className="purple"> Winnipeg,Manitoba, Canada </b>
+            <br />
             <br />A passionate person to work where performance is rewarded with new responsibilities and knowledge to grow along with the organization.
             <br />
             <br />

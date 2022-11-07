@@ -21,9 +21,11 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
+              <br /> Currently living in <b className="purple"> Winnipeg,Manitoba, Canada </b>
+              <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript and Java. </b>
+                <b className="purple"> Javascript,React,Typescript and Java. </b>
               </i>
               <br />
               <br />
@@ -38,21 +40,21 @@ function Home2() {
               Designing and developing <i>
                 <b className="purple">
                   {" "}
-                  high-volume, 
-              low-latency 
+                  high-volume,
+                  low-latency
                 </b>
               </i>applications for mission-critical systems and delivering high-availability and performance.
               <br />
               <br />
               {" "}
-              Contributing in all phases of the 
+              Contributing in all phases of the
               <i>
                 <b className="purple"> development lifecycle</b>
-              </i> 
+              </i>
               and writing well
               <i>
-                <b className="purple"> designed, testable, efficient 
-           </b>
+                <b className="purple"> designed, testable, efficient
+                </b>
               </i>code.  </p>
           </Col>
         </Row>
