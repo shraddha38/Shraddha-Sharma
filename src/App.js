@@ -14,7 +14,6 @@ import ResumeDoc from "./Components/Resume/ResumeDoc";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Education from "./Components/Education/Education";
-import Invitation from "./Components/MarriageVideo/Invitation"
 
 function App() {
   return (
@@ -23,12 +22,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/invitation" element={<Invitation />} />
         <Route path="/resume" element={<ResumeDoc />} />
         <Route path="/about" element={<About />} />
         <Route path="/education" element={<Education />} />
         <Route path="/project" element={<Projects />} />
-        <Route path="*" element={<Navigate to="/"/>} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
 
       <Footer />
