@@ -156,7 +156,7 @@ function Education() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <>AArmy Public School Nasirabad, Rajasthan </>
+                    <>Army Public School Nasirabad, Rajasthan </>
                     <div padding="8px"> 2014-2015</div>
                   </Typography>
                   <Divider />
@@ -234,7 +234,7 @@ function Education() {
                     }}
                   >
                     <>Xoriant Solutions Pvt.Ltd, Pune - Software Developer</>
-                    <div padding="8px"> June,2022-(CURRENTLY)</div>
+                    <div padding="8px"> June,2022- October,2022</div>
                   </Typography>
                   <Divider />
                   <CardContent
@@ -267,7 +267,7 @@ function Education() {
                       Having privledge to work with Clients like- Citibank,
                       Microsoft Azure and Cloudio
                     </Typography>
-                    
+
                   </CardContent>
                   <CardActions sx={{ pl: 60, pb: 3 }}>
                     <Button
