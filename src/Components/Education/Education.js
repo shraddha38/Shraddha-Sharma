@@ -48,7 +48,7 @@ function Education() {
               expanded={expanded === "panel1"}
               onChange={handleChange("panel1")}
               sx={{
-                backgroundColor: "#ad3e92",
+                backgroundColor: "#a050af",
               }}
             >
               <AccordionSummary
@@ -202,7 +202,7 @@ function Education() {
               expanded={expanded === "panel2"}
               onChange={handleChange("panel2")}
               sx={{
-                backgroundColor: "#8a2da1",
+                backgroundColor: "#7f52ad",
               }}
             >
               <AccordionSummary
@@ -216,7 +216,7 @@ function Education() {
               >
                 <Typography
                   variant="h5"
-                  sx={{ fontStyle: "oblique", fontFamily: "Monospace" }}
+                  sx={{ fontStyle: "italic", fontFamily: "Monospace",fontWeight:"bold",fontSize:"30px" }}
                 >
                   WORK EXPERIENCE
                 </Typography>
@@ -234,7 +234,7 @@ function Education() {
                     }}
                   >
                     <>Xoriant Solutions Pvt.Ltd, Pune - Software Developer</>
-                    <div padding="8px"> June,2022- October,2022</div>
+                    <div padding="8px"> June- October 2022</div>
                   </Typography>
                   <Divider />
                   <CardContent
@@ -294,7 +294,7 @@ function Education() {
                     }}
                   >
                     <>Xoriant Solutions Pvt.Ltd, Pune - Intern</>
-                    <div padding="8px">2021 (JANUARY-MAY)</div>
+                    <div padding="8px">January-May 2021</div>
                   </Typography>
                   <Divider />
                   <CardContent
