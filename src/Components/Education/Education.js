@@ -21,6 +21,30 @@ function Education() {
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
+  const educationData = [
+    {
+      id: 1,
+      Institute: "Medi-Caps University Indore, MP",
+      Year: "2017-2021",
+      Degree: "Bachelor of Technology in Information Technology specialization in Information Security (8.3 CGPA)",
+      Website: "https://www.medicaps.ac.in/"
+    },
+    {
+      id: 2,
+      Institute: "Army Public School Mhow, MP",
+      Year: "2016-2017",
+      Degree: "Higher Secondary, Army Public School Mhow (8.0 CGPA)",
+      Website: "https://www.apsmhow.edu.in/"
+    },
+    {
+      id: 3,
+      Institute: "Army Public School Nasirabad, Rajasthan",
+      Year: "2014-2015",
+      Degree: "Secondary, Army Public School Nasirabad (9.4 CGPA)",
+      Website: "https://www.apsnasirabad.com/"
+    }
+
+  ]
   return (
     <Container fluid className="project-section">
       <ParticlesWrapper options={{ background: { color: "" } }} />
@@ -68,121 +92,50 @@ function Education() {
                   EDUCATION
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
-                <Card sx={{ maxWidth: 900 }}>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    sx={{
-                      p: 2,
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <>Medi-Caps University Indore, MP</>
-                    <div padding="8px"> 2017-2021</div>
-                  </Typography>
-                  <Divider />
-                  <CardContent
-                    sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <Typography variant="h6" color="text.secondary">
-                      Bachelor of Technology in Information Technology
-                      specialization in Information Security (8.3 CGPA)
-                    </Typography>
-                  </CardContent>
-                  <CardActions sx={{ pl: 60, pb: 3 }}>
-                    <Button
-                      size="small"
-                      variant="contained"
-                      color="success"
-                      href="https://www.medicaps.ac.in/"
-                    >
-                      Visit Website
-                    </Button>
-                  </CardActions>
-                </Card>
-              </AccordionDetails>
-              <AccordionDetails>
-                <Card sx={{ maxWidth: 900 }}>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    sx={{
-                      p: 2,
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <>Army Public School Mhow, MP</>
-                    <div padding="8px"> 2016-2017</div>
-                  </Typography>
-                  <Divider />
-                  <CardContent
-                    sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <Typography variant="h6" color="text.secondary">
-                      Higher Secondary, Army Public School Mhow (8.0 CGPA)
-                    </Typography>
-                  </CardContent>
-                  <CardActions sx={{ pl: 60, pb: 3 }}>
-                    <Button
-                      size="small"
-                      variant="contained"
-                      color="success"
-                      href="https://www.apsmhow.edu.in/"
-                    >
-                      Visit Website
-                    </Button>
-                  </CardActions>
-                </Card>
-              </AccordionDetails>
-              <AccordionDetails>
-                <Card sx={{ maxWidth: 900 }}>
-                  <Typography
-                    gutterBottom
-                    variant="h5"
-                    component="div"
-                    sx={{
-                      p: 2,
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <>Army Public School Nasirabad, Rajasthan </>
-                    <div padding="8px"> 2014-2015</div>
-                  </Typography>
-                  <Divider />
-                  <CardContent
-                    sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <Typography variant="h6" color="text.secondary">
-                      Senior Secondary,Army Public School Nasirabad (9.4 CGPA)
-                    </Typography>
-                  </CardContent>
-                  <CardActions sx={{ pl: 60, pb: 3 }}>
-                    <Button
-                      size="small"
-                      variant="contained"
-                      color="success"
-                      href="https://www.apsmhow.edu.in/"
-                    >
-                      Visit Website
-                    </Button>
-                  </CardActions>
-                </Card>
-              </AccordionDetails>
+              {
+                educationData.map((data) => {
+                  return (
+                    <AccordionDetails>
+                      <Card sx={{ maxWidth: 900 }}>
+                        <Typography
+                          gutterBottom
+                          variant="h5"
+                          component="div"
+                          sx={{
+                            p: 2,
+                            display: "flex",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <>{data.Institute}</>
+                          <div padding="8px"> {data.Year}</div>
+                        </Typography>
+                        <Divider />
+                        <CardContent
+                          sx={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          <Typography variant="h6" color="text.secondary">
+                            {data.Degree}
+                          </Typography>
+                        </CardContent>
+                        <CardActions sx={{ pl: 60, pb: 3 }}>
+                          <Button
+                            size="small"
+                            variant="contained"
+                            color="success"
+                            href={data.Website}
+                          >
+                            Visit Website
+                          </Button>
+                        </CardActions>
+                      </Card>
+                    </AccordionDetails>
+                  )
+                })
+              }
             </Accordion>
           </Box>
           <Box
