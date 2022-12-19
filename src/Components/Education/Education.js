@@ -56,13 +56,14 @@ function Education() {
                   <TbArrowNarrowDown
                     sx={{
                       fontStyle: "bold",
+                      size: "large"
                     }}
                   />
                 }
               >
                 <Typography
                   variant="h5"
-                  sx={{ fontStyle: "oblique", fontFamily: "Monospace" }}
+                  sx={{ fontStyle: "italic", fontFamily: "Monospace", fontWeight: "bold", fontSize: "30px" }}
                 >
                   EDUCATION
                 </Typography>
@@ -210,13 +211,14 @@ function Education() {
                   <TbArrowNarrowDown
                     sx={{
                       fontStyle: "bold",
+                      size: "large"
                     }}
                   />
                 }
               >
                 <Typography
                   variant="h5"
-                  sx={{ fontStyle: "italic", fontFamily: "Monospace",fontWeight:"bold",fontSize:"30px" }}
+                  sx={{ fontStyle: "italic", fontFamily: "Monospace", fontWeight: "bold", fontSize: "30px" }}
                 >
                   WORK EXPERIENCE
                 </Typography>
