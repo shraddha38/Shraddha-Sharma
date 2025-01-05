@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myPhoto from "../../Assets/myPhoto.png";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -18,22 +16,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and I think I have at least learnt
+              something .... 🤷‍♂️
               <br />
-              <br /> Currently living in <b className="purple"> Winnipeg,Manitoba, Canada </b>
+              <br /> Currently living in <b className="purple"> Winnipeg, Manitoba, Canada </b>
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript,React,Typescript and Java. </b>
+                <b className="purple"> Javascript, React, Typescript and Node.  I like complex problem-solving to turn ideas into reality. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are providing solutions;
+              My field of interest is in providing solutions;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple"> Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">Blockchain and Information Security.</b>
+                <b className="purple"> Blockchain and Information Security.</b>
               </i>
               <br />
               <br />
@@ -43,19 +41,15 @@ function Home2() {
                   high-volume,
                   low-latency
                 </b>
-              </i>applications for mission-critical systems and delivering high-availability and performance.
-              <br />
-              <br />
+              </i> applications for mission-critical systems and delivering high-availability and performance.
+             </p>
+              <p className="home-about-body">
+              Experienced Software Engineer with a demonstrated history of working in the financial industry (FINTECH). Skilled in Communication, Javascript, Typescript, React, GraphQL, Node.js, AWS, MongoDB and MUI. 
               {" "}
-              Contributing in all phases of the
-              <i>
-                <b className="purple"> development lifecycle</b>
-              </i>
-              and writing well
-              <i>
-                <b className="purple"> designed, testable, efficient
-                </b>
-              </i>code.  </p>
+              <br/>
+              <br/>
+              Strong engineering background with a Bachelor of Technology - focused in Information Technology from Medicaps University Indore.
+              </p>
           </Col>
         </Row>
         <Row>
@@ -92,7 +86,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <span><AiFillInstagram /></span>
                 </a>
               </li>
             </ul>

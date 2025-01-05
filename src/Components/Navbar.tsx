@@ -13,13 +13,13 @@ import { CgFileDocument,CgDatabase } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
+  const [navColour, updateNavbarColour] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
-      updateNavbar(true);
+      updateNavbarColour(true);
     } else {
-      updateNavbar(false);
+      updateNavbarColour(false);
     }
   }
 
@@ -91,10 +91,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-        
-
-           
           </Nav>
         </Navbar.Collapse>
       </Container>

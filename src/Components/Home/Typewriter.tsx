@@ -8,6 +8,9 @@ function Type() {
         strings: [
           "React Developer",
           "Java Developer",
+          "Backend Developer",
+          "AWS Developer",
+          "Blockchain Developer",
           "Full Stack Developer",
           "Quick Learner",
           "Tech-savvy"
