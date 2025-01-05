@@ -76,7 +76,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/education"
+                to="/educationAndExperience"
                 onClick={() => updateExpanded(false)}
               >
                 <CgDatabase style={{ marginBottom: "2px",marginRight:"2px" }} />Experience & Education
